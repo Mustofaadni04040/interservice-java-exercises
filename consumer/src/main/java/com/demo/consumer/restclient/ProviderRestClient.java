@@ -6,7 +6,7 @@ import org.springframework.web.client.RestClient;
 
 @Service
 @RequiredArgsConstructor
-public class RestClientProvider {
+public class ProviderRestClient {
     private final RestClient restClient;
 
     public String getInstanceInfo() {
